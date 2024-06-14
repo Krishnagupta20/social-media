@@ -82,7 +82,7 @@ export default function UpdateProfilePage() {
 							</Center>
 							<Center w='full'>
 								<Button w='full' onClick={() => fileRef.current.click()}>
-									Change Avatar
+									Change Profile 
 								</Button>
 								<Input type='file' hidden ref={fileRef} onChange={handleImageChange} />
 							</Center>
